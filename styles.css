@@ -1,0 +1,108 @@
+.bouton {
+  text-align: center;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(10, 15, 250);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.bouton ul {
+  display: none;
+  position:absolute;
+  background-color:rgb(162, 192, 255);
+  border-radius: 30px;
+  padding: 0px;
+}
+
+.bouton:hover ul {
+  display: block;
+  border-radius: 30px;
+}
+
+.bouton>ul {
+  list-style: none;
+}
+
+.bouton>ul>li:hover {
+  background-color:rgb(102, 127, 236);
+  border-radius: 30px;
+}
+
+.bouton ul>li {
+  padding: 10px;
+}
+
+.bouton:hover {
+  background-color:rgb(162, 192, 255);
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: 30% 58% 12%;
+  grid-template-rows: 15% auto 5%;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: cyan;
+  background-image: linear-gradient(to bottom right, cyan, blue);
+  padding: 20px 10px;
+  font-size: 30px;
+  background-color: white;
+  text-align: center;
+}
+a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color:white;
+}
+.grille-corps {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.grille-nav {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+}
+.grille-footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align:left;
+  padding: 25px
+}
+div > a > img {
+  height: 95%;
+  width: 100%;
+}
+div > p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.grille-titre {
+  padding: 10px;
+  font-size: 40px;
+  font-style:oblique;
+  font-weight: 1000;
+}
+
+p + a > img {
+  height: 400px;
+  width: 520px;
+}
+h4 {
+  text-align: left;
+}
+table {
+  border: black solid 3px;
+}
+td {
+  border: black solid 2px;
+}
+#équation {
+  color: grey;
+  font-style:italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: 35px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Game Dev - Transformations</title>
+  </head>
+  <body class="grille">
+    <div class="grille-titre">
+      <a href="index.html">Les Mathématiques au coeur du développement de jeux vidéos</a>
+    </div>
+    <div class="grille-nav">
+      <ul>
+        <li class="bouton">
+          Concepts Mathématiques
+          <ul>
+            <li><a href="coordonnées.html">Coordonnées</a></li>
+            <li><a href="transfo-geo.html">Transformations Géométriques</a></li>
+            <li><a href="produit-scalaire.html">Produits scalaires</a></li>
+          </ul>
+        </li>
+        <li class="bouton">
+          Ressources utiles
+          <ul>
+            <li><a target="_blank" href="https://www.youtube.com/c/javidx9">applications des maths dans C++</a></li>
+            <li><a target="_blank" href="https://youtu.be/DPfxjQ6sqrc">maths essentielles pour le game dev</a></li>
+            <li><a target="_blank" href="https://kb1-edesgreniers.profweb.ca/frontmatter.html">Le cours de math info :)</a></li>
+          </ul>
+        </li>
+        <li class="bouton"><a target="_blank" href="https://www.youtube.com/channel/UCvul3z4UArraAhtAkAe4mNA">Ma chaîne Youtube</a></li>
+      </ul>
+    </div>
+    <div class="grille-corps">
+      <h4>Transformations géométriques</h4>
+      <p>Les transformations géométriques sont une arme très puissante dans le développement autant que dans l'animation. Elles permettent de déplacer
+        ou transformer un objet dans un espace 2D ou 3D. Voici quelques exemples:
+      </p>
+          <table>
+            <tr>
+              <td><h3>Transformation</h3></td>
+              <td><h3>Matrice 2D correspondante</h3></td>
+            </tr>
+            <tr>
+              <td><b>Homothétie:</b><br>Permet de changer la taille d'un objet par le facteur k selon le point d'origine.</td>
+              <td> k 0 <br> 0 k </td>
+            </tr>
+            <tr>
+              <td><b>Rotation:</b><br>Permet de faire tourner l'objet de θ degrés autour du point d'origine.</td>
+              <td> cos(θ) -sin(θ) <br> sin(θ)  cos(θ)</td>
+            </tr>
+            <tr>
+              <td><b>Symétrie:</b><br>Permet de donner l'image miroir selon une droite d'angle θ par rapport aux X positifs.</td>
+              <td> cos(2θ) sin(2θ) <br> sin(2θ)  -cos(2θ)</td>
+            </tr>
+          </table>
+      <p>Elles sont généralement implémentées par multiplication matricielle avec les coordonnées des points de l'objet.</p>
+      
+    </div>
+    <div>
+      <a target="_blank" href="https://www.picmonkey.com/templates/banner/save-some-greeen-160x600"><img src="https://lh3.googleusercontent.com/VWqOHQzS9l9NGQy1n87vVu3xVWVR2NjNnpdg8tirhu3zrc2eBMX-T2wL-1cooSTZBajJkOpDI0JuUMGyIogBX-yXl4KyaqzEMNZ0UlfjiAlSrQ=e365-rw-v0-w580"></a>
+    </div>
+    <div class="grille-footer">
+      Fait par Alexandre Lacombe
+    </div>
+  </body>
+</html>
